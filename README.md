@@ -47,19 +47,8 @@ $ cd feedget
 ```
 
 ### 📦 API
-```bash
-# Entre na pasta do backend
-$ cd backend
-# Faça uma copia do arquivo `.env.example` para `.env` e preencha com as suas credenciais do GitHub
-$ cp .env.example .env
-# Instale as dependências
-$ yarn
-# Execute as migrations
-$ yarn prisma migrate dev
-# Inicie o servidor
-$ yarn dev
-```
-Acesse a API em http://localhost:4000 
+- [Clique aqui e entre no repositório e siga as instruções do README](https://github.com/RenatoCostaF/NLW-Return-feedget-server)
+
 
 ### 📱 Mobile
 > Para utilizar o servidor com a aplicação mobile, é necessário criar uma conta no [Expo](https://expo.dev/), criar um projeto com o nome `nlwheatapp` e colocar https://auth.expo.io/@[seu-user]/nlwheatapp nos campos "Homepage URL" e "Authorization callback URL" do seu OAuth App
